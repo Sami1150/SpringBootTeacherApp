@@ -1,0 +1,41 @@
+databaseChangeLog:
+  - changeSet:
+      id: data-0.0.1
+      author: teacher team
+      changes:
+        - insert:
+            tableName: teacher
+            columns:
+              - column:
+                  name: id
+                  value: '1'
+              - column:
+                  name: course
+                  value: Science
+              - column:
+                  name: salary
+                  value: '50000'
+        - insert:
+            tableName: teacher
+            columns:
+              - column:
+                  name: id
+                  value: '2'
+              - column:
+                  name: course
+                  value: Math
+              - column:
+                  name: salary
+                  value: '60000'
+        - insert:
+            tableName: teacher
+            columns:
+              - column:
+                  name: id
+                  value: '3'
+              - column:
+                  name: course
+                  value: History
+              - column:
+                  name: salary
+                  value: '45000'
