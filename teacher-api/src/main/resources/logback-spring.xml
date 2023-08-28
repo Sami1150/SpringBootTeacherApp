@@ -1,0 +1,4 @@
+<configuration>
+    <property name="LOG_FILE" value="${TEACHER_LOG_DIR:-target}/teacher-${HOSTNAME}.log" />
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+</configuration>
